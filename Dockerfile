@@ -46,5 +46,5 @@ RUN apk del .build-dependencies
 USER thruk
 
 ADD start_thruk.sh /bin
-
+ADD thruk_local.conf /home/thruk/Thruk/thruk_local.conf
 CMD /bin/start_thruk.sh
